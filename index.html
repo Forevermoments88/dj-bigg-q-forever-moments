@@ -108,6 +108,10 @@ section{padding:85px 0}.section-title{font-size:clamp(29px,4vw,42px);font-weight
 
 .package .deposit-note{font:14px/1.7 Arial,sans-serif;color:#655769;margin:0 0 20px}.deposit-note strong{color:#554159}
 .wedding-faq{max-width:820px;margin:auto}.wedding-faq details{border-bottom:1px solid #d9c7a3;padding:20px 0}.wedding-faq summary{cursor:pointer;color:#554159;font:700 16px/1.6 Arial,sans-serif}.wedding-faq p{color:#655769;line-height:1.85;margin:16px 0 0}.wedding-faq summary:focus-visible{outline:3px solid #765c80;outline-offset:5px}
+
+/* Keep music controls clear of the customer chat launcher. */
+.music-control{right:auto;left:18px}
+@media(max-width:520px){.music-control{right:auto;left:12px;max-width:calc(100vw - 100px)}}
 </style>
 </head>
 <body>
@@ -319,6 +323,10 @@ proceed.addEventListener('click',()=>{
  document.getElementById('popupForm').replaceChildren(form);document.getElementById('bookingSummary').textContent='Requested date: '+dateText(selected);calendar.hidden=true;details.hidden=false;form.querySelector('input:not([type="hidden"])')?.focus();
 });
 })();
+</script>
+<!-- Chatbase customer assistant -->
+<script>
+(function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="4gRZ4gkoX8G2it0vT6sdz";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
 </script>
 </body>
 </html>
