@@ -77,6 +77,8 @@ body{background:var(--cream);line-height:1.8}header{background:rgba(252,249,243,
 section{padding:85px 0}.section-title{font-size:clamp(29px,4vw,42px);font-weight:400;margin-bottom:15px;letter-spacing:.3px}.section-title:after{content:'✧';display:block;color:#b49452;font-size:20px;margin-top:12px}.section-sub{font-size:16px;line-height:1.85;margin-bottom:42px}.card{border:1px solid #e3d8c5;border-radius:3px;box-shadow:none;padding:32px;background:#fffdf9}.card h3{font-weight:400;font-size:23px;color:#6d5575}.icon{font-size:26px}.card p{font-size:15px;color:#817581}.wedding{background:linear-gradient(135deg,#ede5e8,#f4eddf);color:#352b37;border-block:1px solid #dcd0bb}.wedding .section-title{color:#352b37}.wedding .section-sub{color:#817581}.packages{gap:24px}.package{border:1px solid #c4a669;background:#fffdf8;border-radius:3px;padding:38px 25px;box-shadow:0 14px 35px #7157350c}.package.featured{border:2px solid #b49452;transform:translateY(-8px)}.package .badge{background:#eee2c9;border-radius:0;color:#826536;font-size:9px;letter-spacing:1.8px;padding:8px 12px}.package h3{font-weight:400;color:#554159;font-size:27px}.package .coverage{font-size:11px;line-height:1.6;font-weight:400;margin-top:10px;letter-spacing:.5px}.price{font:400 40px Georgia,serif;color:#9c7c43;margin:20px 0 10px}.package li{font-size:14px;color:#756776;padding:10px 0;border-bottom-color:#eee5d8}.package li:before{color:#b49452}.package .not-included{background:#f2edf1;color:#765c80;font-size:10px;line-height:1.7;border-radius:2px}.addons{border:1px solid #c6b28c;border-radius:3px;background:#fffaf080;padding:32px;margin-top:38px}.addons h3{font-weight:400;color:#806436}.addons p{color:#766777;font-size:14px}.addons strong{color:#554159}.booking{border-radius:3px;border:1px solid #d9c7a3;box-shadow:none;background:#fffdf9;padding:40px}input,textarea,select{border-radius:2px;border-color:#dcd0bb;background:#fffefb;padding:15px}input:focus,textarea:focus,select:focus{outline:2px solid #bda5c4;outline-offset:2px}.video-card{border-radius:3px;box-shadow:none;border-color:#dccdb5}.video-copy{background:#fffdf8}.video-copy strong{font-weight:400;color:#6d5575}.music-control{background:#554159;border-color:#b49452;font-size:11px;letter-spacing:.5px}footer{background:#302632;color:#d8cdd9;padding:45px 0;font-size:12px;line-height:1.9}
 .botanical{position:absolute;width:200px;height:340px;left:-35px;top:50px;color:#a8997466;pointer-events:none}.botanical.right{left:auto;right:-35px;top:auto;bottom:35px;transform:rotate(180deg)}.rings{width:72px;height:40px;display:block;margin:10px auto 5px;opacity:.85}
 @media(max-width:900px){.package.featured{transform:none}}@media(max-width:720px){.hero{padding:65px 0 55px}.hero:before{inset:12px}.hero p{font-size:16px}.logo-strip{gap:17px}.logo-strip img,.logo-strip img.primary{width:82px;height:82px}.logo-heading{font-size:9px;letter-spacing:1px}.logo-strip>img{margin-top:24px}.botanical{width:110px;height:230px;opacity:.5;left:-40px}.botanical.right{right:-40px}.booking{padding:26px 20px}section{padding:60px 0}}
+
+.booking-popup{border:1px solid var(--gold);border-radius:18px;padding:0;width:min(720px,calc(100% - 24px));max-height:90dvh;background:var(--cream);color:var(--ink);box-shadow:0 30px 100px #0006}.booking-popup::backdrop{background:#08050dcc;backdrop-filter:blur(4px)}.popup-inner{padding:28px}.popup-top{display:flex;align-items:flex-start;justify-content:space-between;gap:14px}.popup-top h2{font-size:27px;line-height:1.25;margin:0;font-weight:400}.popup-close{border:1px solid var(--gold);border-radius:50%;width:36px;height:36px;flex-shrink:0;background:transparent;color:inherit;font-size:24px;cursor:pointer}.popup-note{font:14px/1.6 Arial,sans-serif;color:var(--muted);margin:14px 0 22px}.cal-toolbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}.cal-toolbar strong{font:700 17px Arial,sans-serif}.cal-nav{background:transparent;border:1px solid var(--gold);color:inherit;border-radius:6px;padding:8px 13px;cursor:pointer}.cal-nav:disabled{opacity:.3;cursor:default}.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}.cal-week{font:700 11px Arial,sans-serif;text-align:center;padding:8px 0;color:var(--muted)}.cal-day{font:16px Arial,sans-serif;min-height:44px;background:transparent;color:inherit;border:1px solid #9d819c44;border-radius:7px;cursor:pointer}.cal-day:hover:not(:disabled){border-color:var(--gold);background:#b4945222}.cal-day:disabled{opacity:.28;cursor:default;text-decoration:line-through}.cal-day.selected{background:var(--gold);color:#211605;border-color:var(--gold)}.cal-day:focus-visible{outline:3px solid var(--purple);outline-offset:1px}.cal-day.today{font-weight:900;border-color:var(--purple)}.selected-date{font:700 14px/1.6 Arial,sans-serif;margin:18px 0}.popup-actions{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.popup-actions button{border:0;cursor:pointer}.popup-actions button:disabled{opacity:.5;cursor:default}.popup-back{background:transparent;border:1px solid var(--gold)!important;color:inherit;border-radius:6px;padding:12px 17px}.popup-details[hidden],.popup-calendar[hidden]{display:none}.popup-details form{margin-top:22px}.popup-details label{font:700 13px/1.6 Arial,sans-serif;display:block}.popup-details label input,.popup-details label select,.popup-details label textarea{display:block;width:100%;margin-top:7px}.popup-summary{border:1px solid #b4945266;padding:14px;border-radius:8px;margin:15px 0;font:14px/1.6 Arial,sans-serif}.booking-steps{text-align:center;font:13px/1.8 Arial,sans-serif;color:var(--muted);max-width:750px;margin:20px auto}.popup-details .full{grid-column:1/-1}.popup-details input,.popup-details select,.popup-details textarea{min-width:0}.popup-small{font:12px/1.7 Arial,sans-serif;color:var(--muted);margin:18px 0 0}@media(max-width:520px){.popup-inner{padding:22px 17px}.cal-grid{gap:4px}.cal-day{font-size:14px;min-height:40px}.popup-top h2{font-size:23px}}
 </style>
 </head>
 <body>
@@ -99,7 +101,7 @@ section{padding:85px 0}.section-title{font-size:clamp(29px,4vw,42px);font-weight
 </div>
 
 <p>Elegant music. Smooth transitions. A packed dance floor. From your ceremony to your final dance, I'll help create a wedding celebration you'll always remember.</p>
-<a class="btn gold" href="#booking">Check Your Wedding Date</a>
+<a class="btn gold" href="#booking">Request Your Wedding Date</a>
 </div>
 </section>
 
@@ -200,6 +202,72 @@ Instagram: @dj_bigg_q &nbsp; • &nbsp; TikTok: @dj.bigg.q<br>
    v.addEventListener('pause',function(){if(resumeAfterVideo&&!v.ended){music.play().catch(function(){});resumeAfterVideo=false;sync();}});
  });
  music.addEventListener('play',sync);music.addEventListener('pause',sync);
+})();
+</script>
+
+<dialog class="booking-popup" id="bookingPopup" aria-labelledby="bookingPopupTitle">
+<div class="popup-inner"><div class="popup-top"><h2 id="bookingPopupTitle">Request Your Event Date</h2><button class="popup-close" type="button" aria-label="Close booking calendar">×</button></div>
+<p class="popup-note">Choose your preferred date. DJ BIGG Q will review your event and confirm availability before you pay a deposit.</p>
+<div class="popup-calendar"><div class="cal-toolbar"><button class="cal-nav" id="previousMonth" type="button" aria-label="Previous month">‹</button><strong id="calendarMonth" aria-live="polite"></strong><button class="cal-nav" id="nextMonth" type="button" aria-label="Next month">›</button></div>
+<div class="cal-grid" id="calendarGrid" role="group" aria-label="Choose an event date"></div>
+<p class="selected-date" id="selectedDate" aria-live="polite">Select a date to continue.</p><div class="popup-actions"><button class="btn gold" id="continueBooking" type="button" disabled>Continue to Event Details</button></div>
+<p class="popup-small">Selectable dates are open for requests. Availability is confirmed after review. Past dates and any dates marked unavailable cannot be selected.</p></div>
+<div class="popup-details" hidden><div class="popup-summary" id="bookingSummary" aria-live="polite"></div><button class="popup-back" id="changeDate" type="button">Change Date</button><div id="popupForm"></div><p class="popup-small">Your request does not reserve the date. After approval, you'll receive the confirmed price, deposit amount and a secure online card-payment link. Your booking is confirmed after the required deposit and booking agreement are completed.</p></div></div></dialog>
+
+<script>
+(function(){
+'use strict';
+// Add only unavailable dates, formatted YYYY-MM-DD. Do not put client details here.
+const blockedDates=[];
+const popup=document.getElementById('bookingPopup');
+if(!popup || typeof popup.showModal!=='function') return;
+const originalForm=document.querySelector('#booking form');
+const calendar=popup.querySelector('.popup-calendar'),details=popup.querySelector('.popup-details');
+const grid=document.getElementById('calendarGrid'),monthLabel=document.getElementById('calendarMonth');
+const previous=document.getElementById('previousMonth'),next=document.getElementById('nextMonth');
+const proceed=document.getElementById('continueBooking'),selectedLabel=document.getElementById('selectedDate');
+const now=new Date(),today=new Date(now.getFullYear(),now.getMonth(),now.getDate());
+let year=today.getFullYear(),month=today.getMonth(),selected='',opener=null,packageName='';
+const iso=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+const dateText=s=>new Date(s+'T12:00:00').toLocaleDateString(undefined,{weekday:'long',year:'numeric',month:'long',day:'numeric'});
+function render(){
+ monthLabel.textContent=new Date(year,month,1).toLocaleDateString(undefined,{month:'long',year:'numeric'});
+ previous.disabled=year===today.getFullYear()&&month===today.getMonth();grid.replaceChildren();
+ ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].forEach(day=>{const e=document.createElement('span');e.className='cal-week';e.textContent=day;grid.append(e);});
+ for(let i=0;i<new Date(year,month,1).getDay();i++)grid.append(document.createElement('span'));
+ for(let day=1;day<=new Date(year,month+1,0).getDate();day++){
+  const d=new Date(year,month,day),value=iso(d),button=document.createElement('button');button.type='button';button.className='cal-day';button.textContent=day;
+  const blocked=blockedDates.includes(value);button.disabled=d<today||blocked;button.setAttribute('aria-label',dateText(value)+(blocked?' — unavailable':d<today?' — past date':''));button.setAttribute('aria-pressed',String(value===selected));
+  if(value===iso(today))button.classList.add('today');if(value===selected)button.classList.add('selected');
+  button.addEventListener('click',()=>{selected=value;selectedLabel.textContent='Requested date: '+dateText(value);proceed.disabled=false;render();const selectedButton=grid.querySelector('[aria-pressed="true"]');if(selectedButton)selectedButton.focus();});grid.append(button);
+ }
+}
+function open(button){opener=button;packageName=button.closest('.package')?.querySelector('h3')?.textContent||'';calendar.hidden=false;details.hidden=true;render();popup.showModal();}
+document.querySelectorAll('a[href="#booking"]').forEach(button=>button.addEventListener('click',event=>{event.preventDefault();open(button);}));
+const inlineButton=document.createElement('button');inlineButton.type='button';inlineButton.className='btn gold';inlineButton.textContent='Open Booking Calendar';inlineButton.style.marginBottom='22px';inlineButton.addEventListener('click',()=>open(inlineButton));originalForm.parentNode.insertBefore(inlineButton,originalForm);
+const steps=document.createElement('p');steps.className='booking-steps';steps.textContent='1. Request your date  •  2. DJ review & approval  •  3. Secure card deposit';originalForm.parentNode.insertBefore(steps,originalForm);
+originalForm.querySelectorAll('input[type="date"]').forEach(field=>{field.min=iso(today);});
+popup.querySelector('.popup-close').addEventListener('click',()=>popup.close());popup.addEventListener('close',()=>opener?.focus());
+popup.addEventListener('click',event=>{if(event.target===popup){const r=popup.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)popup.close();}});
+previous.addEventListener('click',()=>{month--;if(month<0){month=11;year--;}render();});next.addEventListener('click',()=>{month++;if(month>11){month=0;year++;}render();});
+document.getElementById('changeDate').addEventListener('click',()=>{calendar.hidden=false;details.hidden=true;render();proceed.focus();});
+proceed.addEventListener('click',()=>{
+ if(!selected)return;
+ const form=originalForm.cloneNode(true);form.removeAttribute('id');
+ form.querySelectorAll('input,select,textarea').forEach(field=>{
+  field.removeAttribute('id');
+  if(field.type==='hidden')return;
+  if(field.type==='date'){field.value=selected;field.type='hidden';const parent=field.closest('label');if(parent)parent.replaceWith(field);return;}
+  if(!field.closest('label')){const label=document.createElement('label');label.textContent=field.name+(field.required?' *':'');field.before(label);label.append(field);if(field.tagName==='TEXTAREA')label.className='full';}
+ });
+ const service=form.querySelector('select[name="Services Needed"]');if(service&&packageName){const option=Array.from(service.options).find(o=>o.textContent.startsWith(packageName));if(option)service.value=option.value;}
+ const phone=form.querySelector('input[name="Phone"]');if(phone){phone.type='tel';phone.required=true;}
+ ['Start Time','End Time'].forEach(name=>{if(form.querySelector('[name="'+name+'"]'))return;const label=document.createElement('label');label.textContent=name+' *';const field=document.createElement('input');field.type='time';field.name=name;field.required=true;label.append(field);form.insertBefore(label,form.querySelector('textarea')?.closest('label')||form.querySelector('button[type="submit"]'));});
+ const category=document.createElement('input');category.type='hidden';category.name='Booking Workflow';category.value='Approval required; secure card deposit link after approval';form.append(category);
+ const submit=form.querySelector('button[type="submit"]');submit.textContent='Send Booking Request';
+ const subject=document.createElement('input');subject.type='hidden';subject.name='_subject';subject.value='DJ BIGG Q booking request — '+selected;form.querySelector('input[name="_subject"]')?.remove();form.append(subject);
+ document.getElementById('popupForm').replaceChildren(form);document.getElementById('bookingSummary').textContent='Requested date: '+dateText(selected);calendar.hidden=true;details.hidden=false;form.querySelector('input:not([type="hidden"])')?.focus();
+});
 })();
 </script>
 </body>
