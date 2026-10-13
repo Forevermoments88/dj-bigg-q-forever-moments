@@ -112,6 +112,12 @@ section{padding:85px 0}.section-title{font-size:clamp(29px,4vw,42px);font-weight
 /* Keep music controls clear of the customer chat launcher. */
 .music-control{right:auto;left:18px}
 @media(max-width:520px){.music-control{right:auto;left:12px;max-width:calc(100vw - 100px)}}
+
+/* Featured wedding commercial — tap to play with sound */
+.featured-promo{background:linear-gradient(155deg,#171116,#2a1d27);color:#f9f1df;text-align:center;padding:72px 20px;border-top:2px solid #b99b60;border-bottom:2px solid #b99b60}
+.featured-promo .eyebrow{color:#d5b77c}.featured-promo h2{color:#f4dfac;font-weight:400;font-size:clamp(30px,5vw,46px);margin:15px 0}.featured-promo p{color:#e5d7c5;max-width:680px;margin:0 auto 28px;line-height:1.8}
+.featured-promo video{display:block;width:min(100%,420px);height:auto;max-height:78vh;aspect-ratio:9/16;object-fit:contain;margin:auto;background:#000;border:1px solid #b99b60;border-radius:8px;box-shadow:0 16px 48px #0008}
+.featured-promo .promo-caption{font-size:12px;margin:14px auto 24px;color:#d6c4a8}
 </style>
 </head>
 <body>
@@ -138,6 +144,15 @@ section{padding:85px 0}.section-title{font-size:clamp(29px,4vw,42px);font-weight
 </div>
 </section>
 
+<section class="featured-promo" id="wedding-film" aria-labelledby="wedding-film-heading">
+<div class="wrap"><div class="eyebrow">A Glimpse of the Celebration</div>
+<h2 id="wedding-film-heading">✧ Experience Forever Moments ✧</h2>
+<p>From the first dance to the last song, we create unforgettable wedding memories.</p>
+<video controls playsinline preload="metadata" poster="promo-poster.jpg" aria-label="DJ BIGG Q Forever Moments wedding highlight commercial">
+<source src="wedding-promo.mp4" type="video/mp4">Your browser does not support this video.</video>
+<p class="promo-caption">Tap ▶ to watch our wedding highlight film with sound.</p>
+<a class="btn gold" href="#booking">Request Your Wedding Date</a>
+</div></section>
 <section id="meet-dj" aria-labelledby="meet-heading"><div class="wrap"><div class="meet-grid">
 <figure class="meet-portrait"><img src="dj-bigg-q-portrait.jpeg" alt="Quentin Lavender, DJ BIGG Q" width="1152" height="1536" loading="lazy" decoding="async"></figure>
 <div class="meet-copy"><div class="eyebrow">The Person Behind the Music</div><h2 class="section-title" id="meet-heading">Meet DJ BIGG Q</h2>
