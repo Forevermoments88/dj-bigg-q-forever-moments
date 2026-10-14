@@ -121,7 +121,7 @@ section{padding:85px 0}.section-title{font-size:clamp(29px,4vw,42px);font-weight
 
 /* Cinematic wedding hero video background — accessible, responsive and muted. */
 .hero{isolation:isolate;background:#17121b url("hero-wedding-poster.jpg") center/cover no-repeat;min-height:640px;display:flex;align-items:center}
-.hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center center;z-index:-2;pointer-events:none}
+.hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:center center;z-index:-2;pointer-events:none;background:transparent}
 .hero::before{content:"";position:absolute;inset:0;width:auto;height:auto;border:0;border-radius:0;background:linear-gradient(90deg,rgba(10,8,13,.76),rgba(12,9,15,.56) 58%,rgba(10,8,13,.35));z-index:-1}
 .hero::after{display:none}
 .hero .wrap{position:relative;z-index:1}
@@ -129,7 +129,7 @@ section{padding:85px 0}.section-title{font-size:clamp(29px,4vw,42px);font-weight
 .hero .script{color:#f2d494}.hero .eyebrow,.hero .logo-heading{color:#f4d89b}
 .hero .botanical{opacity:.18;color:#f1d6a0;pointer-events:none}
 .hero .logo-strip img{background:#130f14}
-@media(max-width:720px){.hero{min-height:680px;padding:70px 0}.hero-video{object-position:60% center}.hero::before{background:linear-gradient(180deg,rgba(10,8,13,.76),rgba(10,8,13,.53) 55%,rgba(10,8,13,.72))}}
+@media(max-width:720px){.hero{min-height:680px;padding:70px 0}.hero-video{object-position:center center}.hero::before{background:linear-gradient(180deg,rgba(10,8,13,.76),rgba(10,8,13,.53) 55%,rgba(10,8,13,.72))}}
 @media(prefers-reduced-motion:reduce){.hero-video{display:none}}
 </style>
 </head>
